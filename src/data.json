@@ -1,0 +1,92 @@
+[
+  {
+    "id": "luong",
+    "artist": "Alvin Luong",
+    "title": "The Refugees and the Corals",
+    "year": "2024",
+    "medium": "Photography",
+    "dimensions": "15 in",
+    "image": "/small/Luong_Art Met.jpg"
+  },
+  {
+    "id": "ohalloran",
+    "artist": "Robert Anthony O'Halloran",
+    "title": "Polyp #291-301 (Stacked)",
+    "year": "2024",
+    "medium": "Hydrostone",
+    "dimensions": "17 × 9 × 12 in",
+    "image": "/small/o_halloran.jpg"
+  },
+  {
+    "id": "dean",
+    "artist": "Tom Dean",
+    "title": "Swank, vol. 18, #10, March 1994, Page 62",
+    "year": "1994",
+    "medium": "Laser print",
+    "dimensions": "10 × 12 in",
+    "image": "/small/tom dean.jpg"
+  },
+  {
+    "id": "lum",
+    "artist": "Morris Lum",
+    "title": "Yuen Hop Noodle Company",
+    "year": "2023",
+    "medium": "Archival Pigment Print",
+    "dimensions": "16 × 20 in",
+    "image": "/small/Yuen_Hop_Noodle_Company_Morris_Lum - Morris Lum.jpg"
+  },
+  {
+    "id": "lockhart",
+    "artist": "Garrett Lockhart",
+    "title": "Starlight",
+    "year": "2024",
+    "medium": "watercolour pencil, lumber crayon, and inkjet transfer on reclaimed dropcloth over board",
+    "dimensions": "4 × 6.5 in",
+    "image": "/small/Garrett Lockhart.jpg"
+  },
+  {
+    "id": "labruce",
+    "artist": "Bruce LaBruce",
+    "title": "L.A. Zombie Lobby Cards",
+    "year": "2010",
+    "medium": "Photographs",
+    "dimensions": "33 × 45.5 cm",
+    "image": "/small/BRUCE LABRUCE.jpg"
+  },
+  {
+    "id": "long",
+    "artist": "Gareth Long",
+    "title": "Let's Look at the Figures (1971: Imperialism and Revolution)",
+    "year": "2019",
+    "medium": "Laser-cut aluminum, spray paint, rare earth magnets",
+    "dimensions": "8 × 9 × 0.25 in",
+    "image": "/small/Gareth Long.jpg"
+  },
+  {
+    "id": "doucet",
+    "artist": "Hannah Doucet",
+    "title": "Perpetual Curtsy",
+    "year": "2023",
+    "medium": "Framed digital photograph with colored matte",
+    "dimensions": "10.5 × 7 in",
+    "image": "/small/12x18-princess---Hannah-Doucet.jpg"
+  },
+  {
+    "id": "hirsch",
+    "artist": "Antonia Hirsch",
+    "title": "Work on Paper 27",
+    "year": "2023",
+    "medium": "Vellum, paper, glue",
+    "dimensions": "21 × 29.7 cm",
+    "image": "/small/antonia_hirsch_work_on_paper_27---Antonia-Hirsch.jpg"
+  },
+  {
+    "id": "whibley",
+    "artist": "Jacob Whibley",
+    "title": "built up, not out",
+    "year": "2016",
+    "medium": "block printing on found paper",
+    "dimensions": "16.5 × 16.5 in",
+    "image": "/small/built-up-not-out---Jacob-Whibley.jpg"
+  }
+]
