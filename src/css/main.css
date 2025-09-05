@@ -7,8 +7,12 @@
   src: url("fonts/Gossip-MedSquare.otf") format("opentype");
 }
 @font-face {
-  font-family: "gossip";
+  font-family: "gossipSmall";
   src: url("fonts/Gossip-LowSquare.otf") format("opentype");
+}
+@font-face {
+  font-family: "gossipRoman";
+  src: url("fonts/Gossip-Roman.woff2") format("woff2");
 }
 @font-face {
   font-family: "aper";
@@ -33,17 +37,29 @@
 }
 h1, h2, h3, h4, h5, h6, p {
   font-weight: normal;
+  font-feature-settings: "liga" 1;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, .rule, .big {
+  font-size: 130px;
 }
 
 h1 {
   padding: 0;
-  margin: 0;
   line-height: 0.8;
   font-weight: normal;
-  font-size: 180px;
   text-align: center;
-  margin: 20px 0;
-  font-family: "gossipMed";
+  margin: 100px 0 20px 0;
+  font-family: "gossipRoman";
 }
 
 h2 {
@@ -51,10 +67,19 @@ h2 {
   margin: 0;
   line-height: 0.8;
   font-weight: normal;
-  font-size: 180px;
   text-align: center;
   margin: 20px 0;
-  font-family: "gossip";
+  font-family: "gossipMed";
+}
+
+h3, .big {
+  padding: 0;
+  margin: 0;
+  line-height: 0.5;
+  font-weight: normal;
+  text-align: center;
+  margin: 20px 0;
+  font-family: "gossipRoman";
 }
 
 h4 {
@@ -64,12 +89,25 @@ h4 {
   margin: 1em 0;
 }
 
+.rule {
+  text-align: center;
+  display: block;
+  line-height: 0;
+  margin: 60px auto;
+  font-family: "gossipRoman";
+}
+
 *,
 *::after,
 *::before {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+*::selection {
+  color: #FFF;
+  background-color: #000;
 }
 
 a:link,
@@ -104,6 +142,21 @@ body {
   background: #FFF;
   color: #000;
   font-family: "aper";
+}
+
+.tickets {
+  display: grid;
+  max-width: 1000px;
+  text-align: center;
+  grid-template-columns: 1fr 1fr;
+  margin: auto;
+}
+
+#imageGrid {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 60px;
 }
 
 .name-space {

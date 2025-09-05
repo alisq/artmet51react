@@ -1,52 +1,65 @@
 
 import './css/main.css'
-import Artist from './components/artist';
-import artists from './data.json';
 import Logo from './logo.svg';
+import ImageGrid from './components/imageGrid';
 
 function App() {
   return (
     
     <div className="App">
       <a href="https://artmetropole.com" target="_blank">
-       <img src={Logo} id="homeLogo" alt="Art Metropole" />
+       <h1>ARTMETROPOLE</h1>
        </a>
-    <hr className='hr1' />
+    <div className="rule">❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉</div>
 
 {/* 
       <h2>
         Lucky Draw Fundraiser & Party
       </h2> */}
-      <h1>
+      <h2>
         Lucky Draw<br />Fundraiser &<br />Party
-      </h1>
-      <hr className='hr2' />
+
+      </h2>
+      
+      <div className="rule">✺✺✺✺✺✺✺✺✺✺✺✺✺✺✺✺✺✺✺✺✺✺✺✺✺✺✺✺✺✺✺✺✺✺✺</div>
+      
    
 
-             <h4>
+             <h3>
   November 20, 2025<br />
   7pm-12am<br />
   Cafeteria+ Upstairs
-      </h4>
+  
+      </h3>
+
+      <div className="rule">❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉</div>
 
 
-
-         {artists.map((item, index) => (
-                        <div key={index}>
-                            <Artist 
-                              key={index}                              
-                              title={item.title} 
-                              artist={item.artist}
-                              id={item.id}
-                              year={item.year}
-                              medium={item.medium}
-                              dimensions={item.dimensions}
-                              image={item.image}
-                               />
-                        </div> 
-                    ))}
+<table>
+  <tr>
+    <td>
+      <span className="big"><a href="https://artmetropole.com/shop/16582">→Lucky Draw Ticket</a></span>
       
- 
+    </td>
+    <td>
+      <span className="big">$800</span>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <span className="big"><a href="https://artmetropole.com/shop/16583">→Party Ticket</a></span>
+    </td>
+    <td>
+      <span className="big"><a href="https://artmetropole.com/shop/16583">$50</a></span>
+    </td>
+  </tr>
+</table>
+<h3>-----------------------</h3>
+
+
+<ImageGrid />
+
+
     </div>
   );
 }
