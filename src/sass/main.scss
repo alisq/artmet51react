@@ -24,6 +24,7 @@ a:visited {
 
 a:active, a:hover {
     text-decoration:none;
+    color:rgb(112, 0, 112);
 }
 
 hr {
@@ -201,6 +202,13 @@ p {
         
 
     }
+}
+
+
+
+table {
+    max-width:1000px;
+    margin:auto;
 }
 
 
