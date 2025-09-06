@@ -1,8 +1,6 @@
 @use 'typography.scss';
 @import 'vars';
 
-
-    
 *,
 *::after,
 *::before {
@@ -27,19 +25,6 @@ a:active, a:hover {
     color:rgb(112, 0, 112);
 }
 
-hr {
-    border:0;
-    height:40px;    
-    width:447px;
-    margin:30px auto;
-    &.hr1 {
-        background:url('./img/pattern01.svg') repeat-x;
-    }
-
-    &.hr2 {
-        background:url('./img/pattern02.svg') repeat-x;
-    }
-}
 
 #homeLogo {
     display:block;
@@ -47,7 +32,7 @@ hr {
 }
 
 body {
-    font-size:24px;
+    font-size:18px;
     background:$light;
     color:$dark;
     font-family:'aper'
@@ -64,9 +49,9 @@ body {
 
 #imageGrid {
     margin:auto;
-    display:grid;
-    grid-template-columns:repeat(5, 1fr);
-    grid-column-gap:60px;
+    // display:grid;
+    // grid-template-columns:repeat(5, 1fr);
+    // grid-column-gap:60px;
 }
 
 .name-space {

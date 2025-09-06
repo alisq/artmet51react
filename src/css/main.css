@@ -120,26 +120,13 @@ a:active, a:hover {
   color: rgb(112, 0, 112);
 }
 
-hr {
-  border: 0;
-  height: 40px;
-  width: 447px;
-  margin: 30px auto;
-}
-hr.hr1 {
-  background: url("./img/pattern01.svg") repeat-x;
-}
-hr.hr2 {
-  background: url("./img/pattern02.svg") repeat-x;
-}
-
 #homeLogo {
   display: block;
   margin: 60px auto;
 }
 
 body {
-  font-size: 24px;
+  font-size: 18px;
   background: #FFF;
   color: #000;
   font-family: "aper";
@@ -155,9 +142,6 @@ body {
 
 #imageGrid {
   margin: auto;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-column-gap: 60px;
 }
 
 .name-space {
