@@ -8,6 +8,7 @@ function Artist({index, title, artist, id, year, medium, dimensions, image}) {
           setCoords({ x: e.clientX, y: e.clientY });
         };
 
+        console.log(image)
     return(
            <tr className={`artist-card ${isHovered ? "hovered" : ""}`}
             onMouseEnter={() => setIsHovered(true)}
@@ -17,16 +18,18 @@ function Artist({index, title, artist, id, year, medium, dimensions, image}) {
      
         
             <td>
-            <p>{artist} — {title}</p>
+            <strong>{artist}</strong>
+            </td>
+            <td><strong>{title}</strong>
             </td>
             <td>
-          <p>{year}</p>
+          {year}
           </td>
           <td>
-          <p>{medium}</p>
+          {medium}
           </td>
           <td>
-          <p>{dimensions}</p>
+          {dimensions}
           </td>
 
                {isHovered && (
@@ -41,7 +44,7 @@ function Artist({index, title, artist, id, year, medium, dimensions, image}) {
           }}
         >
           <img
-            src={image}
+            src={'https://alisq.github.io/artmet51react/build/img/small/'+image}
             alt={`${artist} - ${title}`}
             
           />

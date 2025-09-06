@@ -9,7 +9,7 @@ function ImageGrid() {
         <h2>Artworks</h2>
         <table id="imageGrid">
           {artists.map((item, index) => (
-                        
+                        <>
                             <Artist 
                               key={index}                              
                               title={item.title} 
@@ -21,6 +21,7 @@ function ImageGrid() {
                               image={item.image}
                                />
                                
+                               </>
                         
                     ))}
                     </table>

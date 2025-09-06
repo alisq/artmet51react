@@ -35,7 +35,7 @@ function App() {
       <div className="rule">❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉</div>
 
 
-<table>
+<table id="ticket-table">
   <tr>
     <td>
       <span className="big"><a href="https://artmetropole.com/shop/16582">→Lucky Draw Ticket</a></span>

@@ -146,8 +146,11 @@ body {
 
 .hover-preview {
   position: fixed;
-  pointerEvents: "none";
-  zIndex: 1000;
+  pointer-events: none;
+  z-index: 1000;
+}
+.hover-preview img {
+  max-width: 150px;
 }
 
 .name-space {
@@ -176,7 +179,13 @@ body {
 }
 
 table {
+  max-width: 1300px;
   width: 100%;
+}
+table td {
+  vertical-align: top;
+  padding: 10px;
+  max-width: 300px;
 }
 
 .right-align {
@@ -243,7 +252,7 @@ table {
   bottom: 1em;
 }
 
-table {
+#ticket-table {
   max-width: 1000px;
   margin: auto;
 }

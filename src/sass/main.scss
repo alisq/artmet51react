@@ -56,8 +56,11 @@ body {
 
 .hover-preview {
     position:fixed;
-    pointerEvents: "none";
-    zIndex: 1000;
+    pointer-events: none;
+    z-index: 1000;
+    & img {
+        max-width:150px;
+    }
 }
 .name-space {
     transition:color 0.2s;
@@ -89,7 +92,13 @@ body {
 }
 
 table {
+    max-width:1300px;
     width:100%;
+    & td {
+        vertical-align: top;
+        padding:10px;
+        max-width:300px;
+    }
     
 }
 .right-align {
@@ -196,7 +205,7 @@ p {
 
 
 
-table {
+#ticket-table {
     max-width:1000px;
     margin:auto;
 }

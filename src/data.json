@@ -6,7 +6,7 @@
     "year": "2024",
     "medium": "Photography",
     "dimensions": "15 in",
-    "image": "/small/Luong_Art Met.jpg"
+    "image": "Luong_Art Met.jpg"
   },
   {
     "id": "ohalloran",
@@ -15,7 +15,7 @@
     "year": "2024",
     "medium": "Hydrostone",
     "dimensions": "17 × 9 × 12 in",
-    "image": "/small/o_halloran.jpg"
+    "image": "o_halloran.jpg"
   },
   {
     "id": "dean",
@@ -24,7 +24,7 @@
     "year": "1994",
     "medium": "Laser print",
     "dimensions": "10 × 12 in",
-    "image": "/small/tom dean.jpg"
+    "image": "tom dean.jpg"
   },
   {
     "id": "lum",
@@ -33,7 +33,7 @@
     "year": "2023",
     "medium": "Archival Pigment Print",
     "dimensions": "16 × 20 in",
-    "image": "/small/Yuen_Hop_Noodle_Company_Morris_Lum - Morris Lum.jpg"
+    "image": "Yuen_Hop_Noodle_Company_Morris_Lum - Morris Lum.jpg"
   },
   {
     "id": "lockhart",
@@ -42,7 +42,7 @@
     "year": "2024",
     "medium": "watercolour pencil, lumber crayon, and inkjet transfer on reclaimed dropcloth over board",
     "dimensions": "4 × 6.5 in",
-    "image": "/small/Garrett Lockhart.jpg"
+    "image": "Garrett Lockhart.jpg"
   },
   {
     "id": "labruce",
@@ -51,7 +51,7 @@
     "year": "2010",
     "medium": "Photographs",
     "dimensions": "33 × 45.5 cm",
-    "image": "/small/BRUCE LABRUCE.jpg"
+    "image": "BRUCE LABRUCE.jpg"
   },
   {
     "id": "long",
@@ -60,7 +60,7 @@
     "year": "2019",
     "medium": "Laser-cut aluminum, spray paint, rare earth magnets",
     "dimensions": "8 × 9 × 0.25 in",
-    "image": "/small/Gareth Long.jpg"
+    "image": "Gareth Long.jpg"
   },
   {
     "id": "doucet",
@@ -69,7 +69,7 @@
     "year": "2023",
     "medium": "Framed digital photograph with colored matte",
     "dimensions": "10.5 × 7 in",
-    "image": "/small/12x18-princess---Hannah-Doucet.jpg"
+    "image": "12x18-princess---Hannah-Doucet.jpg"
   },
   {
     "id": "hirsch",
@@ -78,7 +78,7 @@
     "year": "2023",
     "medium": "Vellum, paper, glue",
     "dimensions": "21 × 29.7 cm",
-    "image": "/small/antonia_hirsch_work_on_paper_27---Antonia-Hirsch.jpg"
+    "image": "antonia_hirsch_work_on_paper_27---Antonia-Hirsch.jpg"
   },
   {
     "id": "whibley",
@@ -87,6 +87,6 @@
     "year": "2016",
     "medium": "block printing on found paper",
     "dimensions": "16.5 × 16.5 in",
-    "image": "/small/built-up-not-out---Jacob-Whibley.jpg"
+    "image": "built-up-not-out---Jacob-Whibley.jpg"
   }
 ]
