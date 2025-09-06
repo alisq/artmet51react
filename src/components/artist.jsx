@@ -34,17 +34,16 @@ function Artist({index, title, artist, id, year, medium, dimensions, image}) {
          <div
           className="hover-preview"
           style={{
-            position: "fixed",
+            
             top: coords.y + 15,   // offset so it’s not directly under cursor
-            left: coords.x + 15,
-            pointerEvents: "none", // so it doesn't block hover
-            zIndex: 1000,
+            left: coords.x + 15
+            
           }}
         >
           <img
             src={image}
             alt={`${artist} - ${title}`}
-            style={{ maxWidth: "200px", maxHeight: "200px", border: "1px solid #ccc", background: "#fff" }}
+            
           />
         </div>
         </div>

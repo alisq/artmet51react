@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/artmet51react/build/static/css/main.db4868a7.css",
-    "main.js": "/artmet51react/build/static/js/main.0267709a.js",
+    "main.css": "/artmet51react/build/static/css/main.5a202647.css",
+    "main.js": "/artmet51react/build/static/js/main.5ec99eb3.js",
     "static/js/453.873fba3a.chunk.js": "/artmet51react/build/static/js/453.873fba3a.chunk.js",
     "static/media/Apercu-Italic.ttf": "/artmet51react/build/static/media/Apercu-Italic.39e4358dfbdcc7b5cdfc.ttf",
     "static/media/Apercu-Bold.otf": "/artmet51react/build/static/media/Apercu-Bold.16a839d2abfa318c2e69.otf",
@@ -12,15 +12,13 @@
     "static/media/logo.svg": "/artmet51react/build/static/media/logo.e386b8c8c9b27152ae7822400efb1e37.svg",
     "static/media/Gossip-LowSquare.otf": "/artmet51react/build/static/media/Gossip-LowSquare.cfcc28298552e91c7b95.otf",
     "static/media/Gossip-Roman.woff2": "/artmet51react/build/static/media/Gossip-Roman.101a2665e8a71214a087.woff2",
-    "static/media/pattern01.svg": "/artmet51react/build/static/media/pattern01.e234d4740173b82cfe7d.svg",
-    "static/media/pattern02.svg": "/artmet51react/build/static/media/pattern02.2ab4549899e2bdaf985b.svg",
     "index.html": "/artmet51react/build/index.html",
-    "main.db4868a7.css.map": "/artmet51react/build/static/css/main.db4868a7.css.map",
-    "main.0267709a.js.map": "/artmet51react/build/static/js/main.0267709a.js.map",
+    "main.5a202647.css.map": "/artmet51react/build/static/css/main.5a202647.css.map",
+    "main.5ec99eb3.js.map": "/artmet51react/build/static/js/main.5ec99eb3.js.map",
     "453.873fba3a.chunk.js.map": "/artmet51react/build/static/js/453.873fba3a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.db4868a7.css",
-    "static/js/main.0267709a.js"
+    "static/css/main.5a202647.css",
+    "static/js/main.5ec99eb3.js"
   ]
 }

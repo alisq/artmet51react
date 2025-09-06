@@ -144,6 +144,12 @@ body {
   margin: auto;
 }
 
+.hover-preview {
+  position: fixed;
+  pointerEvents: "none";
+  zIndex: 1000;
+}
+
 .name-space {
   transition: color 0.2s;
   position: relative;
