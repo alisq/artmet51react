@@ -1,19 +1,24 @@
 import {useState} from "react";
 
-function Artist({index, title, artist, id, year, medium, dimensions, image}) {
+function Artist({index, title, artist, id, year, medium, dimensions, image, bio, isOpen, onToggle}) {
     const [isHovered, setIsHovered] = useState(false);
     const [coords, setCoords] = useState({x:0, y:0})
+    
 
      const handleMouseMove = (e) => {
           setCoords({ x: e.clientX, y: e.clientY });
         };
 
-        console.log(image)
+        
+        
     return(
-           <tr className={`artist-card ${isHovered ? "hovered" : ""}`}
+      <>
+           <tr className={`artist-card ${isHovered ? "hovered" : ""} ${isOpen ? "active" : ""}`}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
-            onMouseMove={handleMouseMove} >
+            onMouseMove={handleMouseMove} 
+            onClick={onToggle} 
+            >
       
      
             <td className="hideBig">
@@ -61,6 +66,27 @@ function Artist({index, title, artist, id, year, medium, dimensions, image}) {
 
 
         </tr>
+
+        {isOpen && (
+          <tr
+          onClick={onToggle}><td colspan="10">
+
+            <div className="expanded">
+            
+              <img
+                src={'https://alisq.github.io/artmet51react/build/img/small/'+image}
+                alt={`${artist} - ${title}`}            
+              />
+
+              <div>
+                
+                <p>{bio}</p>
+              </div>
+          
+          </div>
+            </td></tr>
+        )}
+        </>
     )
 }
 

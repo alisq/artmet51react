@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Artist from './artist';
 import artists from '../data.json';
 
 
 function ImageGrid() {
+
+    const [openId, setOpenId] = useState(null);
+    const handleToggle = (id) => {
+        setOpenId((prev) => (prev === id ? null : id))
+    }
     return (
         <>
         <h2>Artworks</h2>
@@ -19,6 +24,9 @@ function ImageGrid() {
                               medium={item.medium}
                               dimensions={item.dimensions}
                               image={item.image}
+                              bio={item.bio}
+                              isOpen={openId === item.id}
+                             onToggle={() => handleToggle(item.id)}
                                />
                                
                                </>

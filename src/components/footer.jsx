@@ -12,8 +12,8 @@ M6H 1A4 Canada<br />
 </div>
 
 <div>
-    © 2025 Art Metropole
-    Gossip Font design by <a href="https://gossip.cargo.site/" target="_blank">Deb Khodanovich</a>.
+    © 2025 Art Metropole<br /><br />
+    Gossip font design by <a href="https://gossip.cargo.site/" target="_blank">Deb Khodanovich</a>.
 </div>
 </div>
 
