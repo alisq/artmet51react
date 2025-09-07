@@ -120,3 +120,21 @@ h4 {
 
 }
 
+
+
+@media (max-width:1000px) {
+
+
+ h1, h2, h3, .rule, .big{
+font-size:80px;
+ }
+
+
+ .rule {
+   max-width: 302px;
+   padding-top:20px;
+   height:70px;
+   overflow: hidden;
+  
+ }
+}

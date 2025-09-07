@@ -2,6 +2,7 @@
 import './css/main.css'
 import Logo from './logo.svg';
 import ImageGrid from './components/imageGrid';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -54,12 +55,13 @@ function App() {
     </td>
   </tr>
 </table>
-<h3>-----------------------</h3>
+<div className="rule">-----------------------</div>
 
 
 <ImageGrid />
+<div className="rule">-----------------------</div>
 
-
+<Footer />
     </div>
   );
 }

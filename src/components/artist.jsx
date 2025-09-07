@@ -16,6 +16,13 @@ function Artist({index, title, artist, id, year, medium, dimensions, image}) {
             onMouseMove={handleMouseMove} >
       
      
+            <td className="hideBig">
+            <strong> <img
+            src={'https://alisq.github.io/artmet51react/build/img/small/'+image}
+            alt={`${artist} - ${title}`}
+            
+          /></strong>
+            </td>
         
             <td>
             <strong>{artist}</strong>
