@@ -49,9 +49,7 @@ body {
 
 #imageGrid {
     margin:auto;
-    // display:grid;
-    // grid-template-columns:repeat(5, 1fr);
-    // grid-column-gap:60px;
+    
 }
 
 .hover-preview {
@@ -251,5 +249,15 @@ p {
             max-width:100px;
         }
     }
+
+
+    #imageGrid {
+ display:block;
+
+ & tr, & td {
+    display:block;
+ }
+    
+}
 }
 

@@ -305,6 +305,12 @@ table td {
   .hideBig img {
     max-width: 100px;
   }
+  #imageGrid {
+    display: block;
+  }
+  #imageGrid tr, #imageGrid td {
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
