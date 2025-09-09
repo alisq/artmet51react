@@ -67,8 +67,9 @@ function Artist({index, title, artist, id, year, medium, dimensions, image, bio,
 
         </tr>
 
-        {isOpen && (
+        
           <tr
+          className={`hidden_content ${isOpen ? "active" : ""}`}
           onClick={onToggle}><td colspan="10">
 
             <div className="expanded">
@@ -85,7 +86,7 @@ function Artist({index, title, artist, id, year, medium, dimensions, image, bio,
           
           </div>
             </td></tr>
-        )}
+        
         </>
     )
 }

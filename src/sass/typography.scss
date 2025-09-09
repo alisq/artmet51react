@@ -1,142 +1,116 @@
-@import 'vars';
+// ------------------------------------------------------
+// Imports
+// ------------------------------------------------------
+@use 'vars' as *; // exposes $light, $dark if needed later
 
-@font-face {
-    font-family: 'gossipBig';
-    src: url('fonts/Gossip-HighSquare.otf') format('opentype');
+// ------------------------------------------------------
+// Font-Face Helper
+// ------------------------------------------------------
+@mixin font-face($family, $path, $format, $weight: normal, $style: normal, $display: swap) {
+  @font-face {
+    font-family: $family;
+    src: url(#{$path}) format(#{$format});
+    font-weight: $weight;
+    font-style: $style;
+    font-display: $display;
+  }
 }
 
-@font-face {
-    font-family: 'gossipMed';
-    src: url('fonts/Gossip-MedSquare.otf') format('opentype');
-}
+// ------------------------------------------------------
+// Fonts
+// ------------------------------------------------------
+@include font-face('gossipBig',   'fonts/Gossip-HighSquare.otf',  'opentype');
+@include font-face('gossipMed',   'fonts/Gossip-MedSquare.otf',   'opentype');
+@include font-face('gossipSmall', 'fonts/Gossip-LowSquare.otf',   'opentype');
 
-@font-face {
-    font-family: 'gossipSmall';
-    src: url('fonts/Gossip-LowSquare.otf') format('opentype');
-}
+@include font-face('gossipRoman', 'fonts/Gossip-Roman.woff2',     'woff2');
 
+@include font-face('aper',        'fonts/Apercu-Regular.otf',     'opentype', normal, normal);
+@include font-face('aper',        'fonts/Apercu-Bold.otf',        'opentype', bold,   normal);
+@include font-face('aper',        'fonts/Apercu-Italic.ttf',      'truetype', normal, italic);
 
-@font-face {
-    font-family: 'gossipRoman';
-    src: url('fonts/Gossip-Roman.woff2') format('woff2');
-}
+@include font-face('aper-mono',   'fonts/Apercu-Mono.ttf',        'truetype');
 
-@font-face {
-    font-family: 'aper';
-    src: url('fonts/Apercu-Regular.otf') format('opentype'); 
-    font-weight:normal;
-}
-
-@font-face {
-    font-family: 'aper';
-    src: url('fonts/Apercu-Bold.otf') format('opentype'); 
-    font-weight:bold;
-}
-
-@font-face {
-    font-family: 'aper';
-    src: url('fonts/Apercu-Italic.ttf') format('truetype'); 
-    font-weight:normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'aper-mono';
-    src: url('fonts/Apercu-Mono.ttf') format('truetype'); 
-    font-weight:normal;
-}
-
-
+// ------------------------------------------------------
+// Base Type
+// ------------------------------------------------------
 h1, h2, h3, h4, h5, h6, p {
-    font-weight:normal;
-    font-feature-settings: "liga" 1;
-
+  font-weight: normal;
+  font-feature-settings: 'liga' 1;
+  margin: 0; // normalize
+  padding: 0; // normalize
 }
 
-a:link,
-a:visited {
-    text-decoration:none;
-    
+// Links
+a {
+  text-decoration: none;
+
+  &:link,
+  &:visited,
+  &:hover {
+    text-decoration: none;
+  }
 }
 
-a:hover {
-    text-decoration:none;
+// ------------------------------------------------------
+// Headings / Display Styles
+// ------------------------------------------------------
+// Shared display size for large styles; adjusted in responsive block below.
+h1, h2, h3, .rule, .big {
+  font-size: 130px;
+  line-height: .8;   // default; h3 overrides below
+  text-align: center;
 }
 
-
- h1, h2, h3, .rule, .big{
-font-size:130px;
- }
-
+// h1
 h1 {
-  padding:0;
-    
-    line-height:0.8;
-    font-weight:normal;
-    
-    text-align:center;
-    margin:100px 0 20px 0;
-    font-family:'gossipRoman'
-
-    
+  margin: 100px 0 20px;
+  font-family: 'gossipRoman';
 }
+
+// h2
 h2 {
-  padding:0;
-    margin:0;
-    line-height:0.8;
-    font-weight:normal;
-    text-align:center;
-    margin:20px 0;
-    font-family:'gossipMed'
-
-    
-}
-h3, .big {
-  padding:0;
-    margin:0;
-    line-height:0.5;
-    font-weight:normal;
-    text-align:center;
-    margin:20px 0;
-    font-family:'gossipRoman'
-
-    
+  margin: 20px 0;
+  font-family: 'gossipMed';
 }
 
+// h3 / .big
+h3,
+.big {
+  margin: 20px 0;
+  line-height: .5; // tighter as you had
+  font-family: 'gossipRoman';
+}
+
+// h4
 h4 {
-    font-weight: bold;
+  font-weight: bold;
   font-size: 1.3em;
   text-align: center;
   margin: 1em 0;
 }
- 
 
+// Rule (kept as a block-level display element)
 .rule {
-    text-align:center;
-    display:block;
-    line-height:0;
-    margin:60px auto;
-    font-family:'gossipRoman';
-
+  display: block;
+  line-height: 0;
+  margin: 60px auto;
+  font-family: 'gossipRoman';
+  text-align: center;
 }
 
+// ------------------------------------------------------
+// Responsive
+// ------------------------------------------------------
+@media (max-width: 1000px) {
+  h1, h2, h3, .rule, .big {
+    font-size: 80px;
+  }
 
-
-@media (max-width:1000px) {
-
-
- h1, h2, h3, .rule, .big{
-font-size:80px;
- }
-
-
- .rule {
-   max-width: 302px;
-   padding-top:20px;
-   height:70px;
-   overflow: hidden;
-  
- }
-
- 
+  .rule {
+    max-width: 302px;
+    padding-top: 20px;
+    height: 70px;
+    overflow: hidden;
+  }
 }
