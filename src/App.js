@@ -1,6 +1,6 @@
 
 import './css/main.css'
-import Logo from './logo.svg';
+
 import ImageGrid from './components/imageGrid';
 import Footer from './components/footer';
 
