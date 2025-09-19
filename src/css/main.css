@@ -74,6 +74,15 @@ h1, h2, h3, .rule, .big {
   text-align: center;
 }
 
+.hoverSpacer {
+  display: inline-block;
+  transition: width 0.15s ease-in-out;
+  width: 0;
+}
+a:hover .hoverSpacer {
+  width: 30px;
+}
+
 h1 {
   margin: 100px 0 20px;
   font-family: "gossipRoman";
@@ -330,13 +339,16 @@ table td {
   overflow: hidden;
   padding: 0;
   display: grid;
-  grid-template-columns: 200px 1fr;
+  grid-template-columns: 1fr 1fr;
   column-gap: 1em;
   transition: max-height 0.3s, padding 0.3s;
   text-align: left;
 }
+.expanded img {
+  max-height: 700px;
+}
 .active .expanded {
-  max-height: 500px;
+  max-height: 800px;
   padding-bottom: 3em;
 }
 

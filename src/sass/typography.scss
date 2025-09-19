@@ -62,6 +62,19 @@ h1, h2, h3, .rule, .big {
   text-align: center;
 }
 
+
+.hoverSpacer {
+  display:inline-block;
+  transition:width 0.15s ease-in-out;
+  width:0;
+  a:hover & {
+  width:30px;
+  
+}
+  
+}
+
+
 // h1
 h1 {
   margin: 100px 0 20px;

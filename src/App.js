@@ -39,20 +39,20 @@ function App() {
 <table id="ticket-table">
   <tr>
     <td>
-      <span className="big"><a href="https://artmetropole.com/shop/16582">→Lucky Draw Ticket</a></span>
+      <span className="big"><a href="https://artmetropole.com/shop/16582">→<span className="hoverSpacer"></span>Lucky Draw Ticket</a></span>
       <p><br />Artwork + 1 Entry to Preview and Party<br />
-      <em>(early bird ends October 5)</em></p>
+      <em>(early bird ends October ??)</em></p>
       
     </td>
     <td>
-      <span className="big">$800</span>
+      <span className="big"><a href="https://artmetropole.com/shop/16582">$800</a></span>
     </td>
   </tr>
   <tr>
     <td>
-      <span className="big"><a href="https://artmetropole.com/shop/16583">→Party Ticket</a></span>
-      <p><br />1 Entry to Party<br />
-      <em>(early bird ends October 5)</em></p>
+      <span className="big"><a href="https://artmetropole.com/shop/16583">→<span className="hoverSpacer"></span>Party Ticket</a></span>
+      <p><br />1 Entry to Preview and Party<br />
+      <em>(early bird ends October ??)</em></p>
     </td>
     <td>
       <span className="big"><a href="https://artmetropole.com/shop/16583">$50</a></span>

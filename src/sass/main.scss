@@ -222,14 +222,18 @@ table {
     overflow:hidden;
     padding:0;
   display: grid;
-  grid-template-columns: 200px 1fr;
+  grid-template-columns: 1fr 1fr;
   column-gap: 1em;
   
   transition: max-height .3s, padding .3s;
   text-align:left;
 
+   & img {
+    max-height:700px;
+   }
+
   .active & {
-    max-height:500px;
+    max-height:800px;
     padding-bottom:3em;
   }
 }

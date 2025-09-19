@@ -44,7 +44,7 @@ function Artist({index, title, artist, id, year, medium, dimensions, image, bio,
           {dimensions}
           </td>
 
-               {isHovered && (
+               {(isHovered && (image !== "")) && (
         <div className="hover-details">
          <div
           className="hover-preview"
@@ -75,7 +75,7 @@ function Artist({index, title, artist, id, year, medium, dimensions, image, bio,
             <div className="expanded">
             
               <img
-                src={'https://alisq.github.io/artmet51react/build/img/small/'+image}
+                src={'https://alisq.github.io/artmet51react/build/img/big/'+image}
                 alt={`${artist} - ${title}`}            
               />
 
