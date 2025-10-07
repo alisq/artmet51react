@@ -67,25 +67,24 @@ function Artist({index, title, artist, id, year, medium, dimensions, image, bio,
 
         </tr>
 
-        
-          <tr
-          className={`hidden_content ${isOpen ? "active" : ""}`}
-          onClick={onToggle}><td colspan="10">
-
-            <div className="expanded">
-            
-              <img
-                src={'/img/big/'+image}
-                alt={`${artist} - ${title}`}            
-              />
-
-              <div>
-                
-                <p>{bio}</p>
-              </div>
-          
-          </div>
-            </td></tr>
+       {image !== "" && (
+  <tr
+    className={`hidden_content ${isOpen ? "active" : ""}`}
+    onClick={onToggle}
+  >
+    <td colSpan="10">
+      <div className="expanded">
+        <img
+          src={`/img/big/${image}`}
+          alt={`${artist} - ${title}`}
+        />
+        <div>
+          <p>{bio}</p>
+        </div>
+      </div>
+    </td>
+  </tr>
+)}
         
         </>
     )
