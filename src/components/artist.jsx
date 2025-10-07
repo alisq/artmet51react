@@ -23,7 +23,7 @@ function Artist({index, title, artist, id, year, medium, dimensions, image, bio,
      
             <td className="hideBig">
             <strong> <img
-            src={'https://alisq.github.io/artmet51react/build/img/small/'+image}
+            src={'/img/small/'+image}
             alt={`${artist} - ${title}`}
             
           /></strong>
@@ -56,7 +56,7 @@ function Artist({index, title, artist, id, year, medium, dimensions, image, bio,
           }}
         >
           <img
-            src={'https://alisq.github.io/artmet51react/build/img/small/'+image}
+            src={'/img/small/'+image}
             alt={`${artist} - ${title}`}
             
           />
@@ -75,7 +75,7 @@ function Artist({index, title, artist, id, year, medium, dimensions, image, bio,
             <div className="expanded">
             
               <img
-                src={'https://alisq.github.io/artmet51react/build/img/big/'+image}
+                src={'/img/big/'+image}
                 alt={`${artist} - ${title}`}            
               />
 

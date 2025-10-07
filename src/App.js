@@ -13,10 +13,7 @@ function App() {
        </a>
     <div className="rule">❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉</div>
 
-{/* 
-      <h2>
-        Lucky Draw Fundraiser & Party
-      </h2> */}
+
       <h2>
         Lucky Draw<br />Fundraiser &<br />Party
 
@@ -35,6 +32,17 @@ function App() {
 
       <div className="rule">❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉</div>
 
+
+             <h3>
+Featuring DJs Chinelo + Marnigurl 
+  
+      </h3>
+
+      <div className="rule">❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉</div>
+
+<p>This is a unique fundraising event, unlike a traditional auction, where all guests who purchase a Lucky Draw Ticket will go home with an artwork. Following an in-person preview of the works, our MC will draw names to determine who is lucky enough to choose first, second, and so on. Proxy previews and picks are available if you are unable to join us in person.
+With a regular Party Ticket, you can visit the preview of artworks Upstairs, watch the Lucky Draw, and enjoy a night of DJs and dancing, including complimentary drinks.
+</p>
 
 <table id="ticket-table">
   <tr>

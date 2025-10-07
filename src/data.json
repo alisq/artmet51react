@@ -1,12 +1,13 @@
 [
   {
+    
   "id":"sameer_farooq",
     "artist":"Sameer Farooq", 
   "title": "Gandhara Series (Constellation 5)", 
   "year":"2023", 
   "medium": "Photography, Archival print", 
   "dimensions": "34 x 24 in",
-  "image": "sameer.jpeg",
+  "image": "sameer.jpg",
   "bio": ""
 },
 
@@ -14,6 +15,7 @@
 
 
 {
+  
   "id":"kate_newby",
   "artist":"Kate Newby", 
   "title": "But what will it look like in 3 years", 
@@ -24,6 +26,7 @@
   "bio": ""
 },
 {
+  
   "id":"shaan_syed",
   "artist":"Shaan Syed", 
   "title": "Untitled", 
@@ -36,6 +39,7 @@
 
 
 {
+  
   "id":"kay_rosen",
   "artist":"Kay Rosen", 
   "title": "Silence/License", 
@@ -46,6 +50,7 @@
   "bio": ""
 },
 {
+  
   "id":"Jochen_Lempert",
   "artist":"Jochen Lempert", 
   "title": "Eule IV", 
@@ -62,6 +67,7 @@
 
 
 {
+  
   "id":"Heather_Goodchild",
   "artist":"Heather Goodchild", 
   "title": "Shanghai Park", 
@@ -73,6 +79,7 @@
 },
 
 {
+  
   "id":"Steven_Beckly",
   "artist":"Steven Beckly", 
   "title": "Tip to Tip", 
@@ -85,6 +92,7 @@
 
 
 {
+  
   "id":"Kristine_Moran",
   "artist":"Kristine Moran", 
   "title": "Untitled (Drawing while walking 13)", 
@@ -95,6 +103,7 @@
   "bio": ""
 },
 {
+  
   "id":"Cristian_Ordonez",
   "artist":"Cristian Ordóñez", 
   "title": "Untitled 07 (Frequency). ON, 2020", 
@@ -107,6 +116,7 @@
 
 
 {
+  
   "id":"Shannon_Norberg",
   "artist":"Shannon Norberg", 
   "title": "Burger Ashtray", 
@@ -118,13 +128,96 @@
 },
 
 {
+  
   "id":"John_Monteith",
   "artist":"John Monteith", 
   "title": "Grands Ensembles #4", 
   "year":"2019", 
   "medium": "Colour pencil on drafting film", 
   "dimensions": "24 x 18 in",
-    "image": "Monteith.jpg",
-      "bio": ""
-      }
+  "image": "Monteith.jpg",
+  "bio": ""
+},
+
+{
+  "id":"Jean_François_Lauda",
+  "artist":"Jean-François Lauda",
+  "title": "untitled",
+  "year":"2023",
+  "medium":"Untitled Watercolour and pencil on paper",
+  "dimensions": "7 x 11 in",
+  "image":"",
+  "bio":""},
+{
+  "id":"Jennifer_Simaitis",
+  "artist":"Jennifer Simaitis",
+  "title": "Snow like lino, lino like snow",
+  "year":"2020",
+  "medium":"lino cut print on hand-made gampi paper",
+  "dimensions": "8 x 10 in",
+  "image":"",
+  "bio":""},
+{
+  "id":"Geoffrey_Farmer",
+  "artist":"Geoffrey Farmer",
+  "title": "It hasn't been made yet",
+  "year":"2025",
+  "medium":"not sure until it is made",
+  "dimensions":"unknown",
+  "image":"",
+  "bio":""},
+{
+  "id":"Alan_Belcher",
+  "artist":"",
+  "title": "Nafta",
+  "year":"2018/2019",
+  "medium":"Canadian softwood, colour photograph, nails",
+  "dimensions":"8 x 5.5 x 5.5 in",
+  "image":"alan_belcher.jpg",
+  "bio":""},
+{
+  "id":"Kelly_Jazvac",
+  "artist":"Kelly Jazvac",
+  "title": "Recent Landscapes",
+  "year":"2014",
+  "medium":"framed giclée print",
+  "dimensions":"11 x 17 in (unframed) ",
+  "image":"kelly_jazvac.jpg",
+  "bio":""},
+{
+  "id":"Tauba_Auerbach",
+  "artist":"Tauba Auerbach c/o Paula Cooper Gallery",
+  "title": "Ligature Drawing, 13 June 22",
+  "year":"2022",
+  "medium":"ink on paper with date stamp",
+  "dimensions":"31.5 x 27 in",
+  "image":"auerbach.jpg",
+  "bio":""},
+{
+  "id":"Adrien_Crossman",
+  "artist":"Adrien Crossman",
+  "title": "Steamworks, January 2025",
+  "year":"2025",
+  "medium":"Fine art photo print mounted on aluminum",
+  "dimensions":"11 x 14 in",
+  "image":"adrien_crossman.jpg",
+  "bio":""},
+{
+  "id":"Justin_Ming_Yong",
+  "artist":"Justin Ming Yong",
+  "title": "Red Fall 02- 2024",
+  "year":"2024",
+  "medium":"Ink, bleach and cotton on wooden stretcher",
+  "dimensions":"24 x 24 in",
+  "image":"justin_yong.jpg",
+  "bio":""},
+{
+  "id":"Shannon_Garden_Smith",
+  "artist":"Shannon Garden-Smith",
+  "title": "Leaf No 87, No 99 (recueil de cartes)",
+  "year":"2025",
+  "medium":"Archival digital prints on 100% cotton, acid-free, hot press paper; custom museum glass frame with glass marbles ",
+  "dimensions":"Two prints 5.75 x 8.25 in each, framed as one work, approximately 17.25 x 13.5 x 1.25 in",
+  "image":"garden_smith.jpg",
+  "bio":""}
     ]
