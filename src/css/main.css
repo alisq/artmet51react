@@ -361,6 +361,9 @@ p {
   .hideBig {
     display: table-cell;
   }
+  p {
+    margin: 1em;
+  }
   .hover-preview {
     display: none;
   }
@@ -386,6 +389,9 @@ p {
     width: 100%;
     display: block;
     margin: auto;
+  }
+  .artist-card:last-child .hideBig h3 {
+    display: none;
   }
 }
 

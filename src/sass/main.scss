@@ -249,6 +249,11 @@ p {
 @media (max-width: 1000px) {
   .hideBig { display: table-cell; }
 
+
+  p {
+    margin:1em;
+  }
+
   .hover-preview { display: none; }
 
   #imageGrid {
@@ -269,12 +274,19 @@ p {
     img { display: none; }
   }
 
+
   // Ensure any images inside .hideBig scale nicely
-  .hideBig img {
-    padding: 1em;
-    max-width: 100%;
-    width: 100%;
-    display: block;
-    margin: auto; // fixed typo "margi:autp"
+  .hideBig {
+    & img {
+      padding: 1em ;
+      max-width: 100%;
+      width: 100%;
+      display: block;
+      margin: auto; // fixed typo "margi:autp"
+    }
+
+    .artist-card:last-child & h3 {
+      display: none;
+    }
   }
 }
