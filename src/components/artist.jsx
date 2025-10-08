@@ -1,4 +1,5 @@
 import { useState } from "react";
+import parse from 'html-react-parser';
 
 function Artist({
   index,
@@ -38,7 +39,7 @@ function Artist({
           <strong>{title}</strong>
         </td>
         <td>{year}</td>
-        <td>{medium}</td>
+        <td>{parse(medium)}</td>
         <td>{dimensions}</td>
 
         
