@@ -47,21 +47,21 @@ With a regular Party Ticket, you can visit the preview of artworks Upstairs, wat
 <table id="ticket-table">
   <tr>
     <td>
-      <span className="big"><a href="https://artmetropole.com/shop/16582">→<span className="hoverSpacer"></span>Lucky Draw Ticket</a></span>
+      <span className="big"><a href="https://artmetropole.com/shop/16630">→<span className="hoverSpacer"></span>Lucky Draw Ticket</a></span>
       <p><br />Artwork + 1 Entry to Preview and Party</p>
       
     </td>
     <td>
-      <span className="big"><a href="https://artmetropole.com/shop/16582">$800</a></span>
+      <span className="big"><a href="https://artmetropole.com/shop/16630">$1000</a></span>
     </td>
   </tr>
   <tr>
     <td>
-      <span className="big"><a href="https://artmetropole.com/shop/16583">→<span className="hoverSpacer"></span>Party Ticket</a></span>
+      <span className="big"><a href="https://artmetropole.com/shop/16631">→<span className="hoverSpacer"></span>Party Ticket</a></span>
       <p><br />1 Entry to Preview and Party</p>
     </td>
     <td>
-      <span className="big"><a href="https://artmetropole.com/shop/16583">$50</a></span>
+      <span className="big"><a href="https://artmetropole.com/shop/16631">$100</a></span>
     </td>
   </tr>
 </table>
