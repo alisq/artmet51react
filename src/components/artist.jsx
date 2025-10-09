@@ -74,9 +74,7 @@ function Artist({
           <td colSpan="10">
             <div className="expanded">
               <img src={`/img/big/${image}`} alt={`${artist} - ${title}`} />
-              <div>
-                <p>{bio}</p>
-              </div>
+              
             </div>
           </td>
         </tr>

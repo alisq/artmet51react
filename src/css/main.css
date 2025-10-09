@@ -342,13 +342,12 @@ table td {
   max-height: 0;
   overflow: hidden;
   padding: 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
   column-gap: 1em;
   transition: max-height 0.3s, padding 0.3s;
-  text-align: left;
+  text-align: center;
 }
 .expanded img {
+  margin: auto;
   max-height: 700px;
 }
 .active .expanded {
