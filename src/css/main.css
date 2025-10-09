@@ -180,6 +180,10 @@ a:hover, a:active {
   color: rgb(112, 0, 112);
 }
 
+.align-right {
+  text-align: right;
+}
+
 #homeLogo {
   display: block;
   margin: 60px auto;
@@ -187,7 +191,7 @@ a:hover, a:active {
 
 table {
   width: 100%;
-  max-width: 1300px;
+  max-width: 1400px;
   margin-inline: auto;
 }
 table td {
@@ -218,7 +222,7 @@ table td {
 }
 
 #ticket-table {
-  max-width: 1000px;
+  max-width: 1100px;
   margin-inline: auto;
 }
 

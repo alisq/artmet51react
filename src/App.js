@@ -51,7 +51,7 @@ With a regular Party Ticket, you can visit the preview of artworks Upstairs, wat
       <p><br />Artwork + 1 Entry to Preview and Party</p>
       
     </td>
-    <td>
+    <td className="align-right">
       <span className="big"><a href="https://artmetropole.com/shop/16630">$1000</a></span>
     </td>
   </tr>
@@ -60,7 +60,7 @@ With a regular Party Ticket, you can visit the preview of artworks Upstairs, wat
       <span className="big"><a href="https://artmetropole.com/shop/16631">→<span className="hoverSpacer"></span>Party Ticket</a></span>
       <p><br />1 Entry to Preview and Party</p>
     </td>
-    <td>
+    <td className="align-right">
       <span className="big"><a href="https://artmetropole.com/shop/16631">$100</a></span>
     </td>
   </tr>
