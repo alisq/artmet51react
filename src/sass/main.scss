@@ -7,7 +7,7 @@
 // ------------------------------------------------------
 // Mixins & Utilities
 // ------------------------------------------------------
-@mixin container($max: 1000px) {
+@mixin container($max: 1300px) {
   max-width: $max;
   margin-inline: auto;
 }
@@ -52,6 +52,10 @@ body {
   font-size: 18px;
   background: $light;
   color: $dark;
+}
+
+.longer {
+  min-width:120px;
 }
 
 img { max-width: 100%; }
@@ -100,7 +104,8 @@ table {
 }
 
 #imageGrid {
-  @include container();
+  max-width: 1300px;
+  @include container(1300px);
 }
 
 .split {

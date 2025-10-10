@@ -168,6 +168,10 @@ body {
   color: #000;
 }
 
+.longer {
+  min-width: 120px;
+}
+
 img {
   max-width: 100%;
 }
@@ -211,7 +215,8 @@ table td {
 }
 
 #imageGrid {
-  max-width: 1000px;
+  max-width: 1300px;
+  max-width: 1300px;
   margin-inline: auto;
 }
 

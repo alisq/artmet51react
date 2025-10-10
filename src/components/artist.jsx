@@ -6,6 +6,8 @@ function Artist({
   title,
   artist,
   id,
+  notes,
+  edition,
   year,
   medium,
   dimensions,
@@ -33,7 +35,7 @@ function Artist({
         onClick={onToggle}
       >
         <td>
-          <strong>{artist}</strong>
+          <strong>{parse(artist)}</strong>
         </td>
         <td>
           <strong>{title}</strong>
@@ -41,6 +43,8 @@ function Artist({
         <td>{year}</td>
         <td>{parse(medium)}</td>
         <td>{dimensions}</td>
+        <td>{edition}</td>
+        <td><em>{notes}</em></td>
 
         
         <td className="hideBig">

@@ -13,6 +13,17 @@ function ImageGrid() {
         <>
         <h2>Artworks</h2>
         <table id="imageGrid">
+          
+            <tr>
+            <td className="longer"><u>Artist</u></td>
+            <td><u>Title</u></td>
+            <td><u>Year</u></td>
+            <td><u>Medium</u></td>
+            <td><u>Size</u></td>
+            <td><u>Dimensions</u></td>
+            <td><u>Notes</u></td>
+            </tr>
+          
           {artists.map((item, index) => (
                         <>
                             <Artist 
@@ -20,7 +31,9 @@ function ImageGrid() {
                               title={item.title} 
                               artist={item.artist}
                               id={item.id}
+                              notes={item.notes}
                               year={item.year}
+                              edition={item.edition}
                               medium={item.medium}
                               dimensions={item.dimensions}
                               image={item.image}
