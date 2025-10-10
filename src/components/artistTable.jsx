@@ -3,7 +3,7 @@ import Artist from './artist';
 import artists from '../data.json';
 
 
-function ImageGrid() {
+function ArtistTable() {
 
     const [openId, setOpenId] = useState(null);
     const handleToggle = (id) => {
@@ -14,7 +14,7 @@ function ImageGrid() {
         <h2>Artworks</h2>
         <table id="imageGrid">
           
-            <tr>
+            <tr className="headings">
             <td className="longer"><u>Artist</u></td>
             <td><u>Title</u></td>
             <td><u>Year</u></td>
@@ -50,4 +50,4 @@ function ImageGrid() {
     )
 }
 
-export default ImageGrid;
+export default ArtistTable;

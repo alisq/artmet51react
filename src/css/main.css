@@ -391,6 +391,9 @@ p {
   .expanded img {
     display: none;
   }
+  .headings {
+    display: none;
+  }
   .hideBig img {
     padding: 1em;
     max-width: 100%;

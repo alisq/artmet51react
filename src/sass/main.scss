@@ -286,6 +286,10 @@ p {
   }
 
 
+  .headings {
+    display:none;
+  }
+
   // Ensure any images inside .hideBig scale nicely
   .hideBig {
     & img {

@@ -1,14 +1,14 @@
 
 import './css/main.css'
 
-import ImageGrid from './components/imageGrid';
+import ArtistTable from './components/artistTable';
 import Footer from './components/footer';
 
 function App() {
   return (
     
     <div className="App">
-      <a href="https://artmetropole.com" target="_blank">
+      <a href="https://artmetropole.com" target="_blank" rel="noreferrer">
        <h1>ARTMETROPOLE</h1>
        </a>
     <div className="rule">❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉</div>
@@ -68,7 +68,7 @@ With a regular Party Ticket, you can visit the preview of artworks Upstairs, wat
 <div className="rule">-----------------------</div>
 
 
-<ImageGrid />
+<ArtistTable />
 <div className="rule">-----------------------</div>
 
 <Footer />
