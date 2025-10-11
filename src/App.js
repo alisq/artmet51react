@@ -9,11 +9,20 @@ function App() {
   return (
     
     <div className="App">
-     
+       <BurgerMenu
+        title=""
+        items={[
+          { label: "Event Details", href: "#details" },
+          { label: "Artworks", href: "#artworks_title" },
+          { label: "Tickets", href: "#ticket-table" },
+          { label: "Sponsors and Contact", href: "#footer" }
+        ]}
+      />
+
       <a href="https://artmetropole.com" target="_blank" rel="noreferrer">
        <h1>ARTMETROPOLE</h1>
        </a>
-    <div className="rule">❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉</div>
+    <div className="rule"  id="details">❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉❉</div>
 
 
       <h2>

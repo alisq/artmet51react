@@ -11,7 +11,7 @@ function ArtistTable() {
     }
     return (
         <>
-        <h2>Artworks</h2>
+        <h2 id="artworks_title">Artworks</h2>
         <table id="imageGrid">
           
             <tr className="headings">

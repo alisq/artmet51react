@@ -13,21 +13,22 @@ import { motion, AnimatePresence } from "framer-motion";
  *  - items?: Array<{ label: string; href: string }>
  *  - title?: string (shown at top-left of overlay)
  */
-export default function BurgerMenu({
+function BurgerMenu({
   items = [
     { label: "Home", href: "#home" },
     { label: "Work", href: "#work" },
     { label: "About", href: "#about" },
     { label: "Contact", href: "#contact" },
   ],
-  title = "Menu",
+  title = "",
 }: {
   items?: { label: string; href: string }[];
   title?: string;
 }) {
   const [open, setOpen] = useState(false);
-  const firstLinkRef = useRef<HTMLAnchorElement | null>(null);
-  const buttonRef = useRef<HTMLButtonElement | null>(null);
+  const firstLinkRef = useRef(null);
+const buttonRef = useRef(null);
+
 
   // Lock body scroll while open
   useEffect(() => {
@@ -61,17 +62,17 @@ export default function BurgerMenu({
   return (
     <div className="relative z-[60]">
       {/* Burger Button */}
-      <button
+      <a
         ref={buttonRef}
         aria-label={open ? "Close menu" : "Open menu"}
         aria-expanded={open}
         aria-controls="fullscreen-menu"
         onClick={() => setOpen((v) => !v)}
-        className="group inline-flex items-center justify-center w-12 h-12 rounded-2xl border border-black/10 bg-white/80 backdrop-blur text-black shadow-sm hover:shadow transition duration-200"
+        className="MenuButton transition duration-200"
       >
-        <span className="sr-only">Toggle menu</span>
+        <span className="sr-only"><span className="bar">—</span><span className="bar">—</span><span className="bar">—</span></span>
         <Hamburger open={open} />
-      </button>
+      </a>
 
       {/* Overlay Menu */}
       <AnimatePresence>
@@ -106,25 +107,37 @@ export default function BurgerMenu({
               className="h-[calc(100vh-5rem)] flex items-center justify-center px-6"
             >
               <ul className="grid gap-4 text-center">
-                {items.map((item, i) => (
-                  <li key={item.href}>
-                    <a
-                      {...(i === 0 ? { ref: firstLinkRef } : {})}
-                      href={item.href}
-                      onClick={handleLinkClick}
-                      className="text-4xl sm:text-5xl md:text-6xl font-medium tracking-tight leading-none focus:outline-none focus-visible:ring-2 focus-visible:ring-black/40 rounded"
-                    >
-                      {item.label}
-                    </a>
-                  </li>
+                
+                 {items.map((item, i) => (
+  <li key={item.href}>
+    {i === 0 ? (
+      <a
+        ref={firstLinkRef}
+        href={item.href}
+        onClick={handleLinkClick}
+        className="text-4xl sm:text-5xl md:text-6xl font-medium tracking-tight leading-none focus:outline-none focus-visible:ring-2 focus-visible:ring-black/40 rounded"
+      >
+        {item.label}
+      </a>
+    ) : (
+      <a
+        href={item.href}
+        onClick={handleLinkClick}
+        className="text-4xl sm:text-5xl md:text-6xl font-medium tracking-tight leading-none focus:outline-none focus-visible:ring-2 focus-visible:ring-black/40 rounded"
+      >
+        {item.label}
+      </a>
+    )}
+  </li>
+
+
                 ))}
               </ul>
             </motion.nav>
 
             {/* Footer bits (optional) */}
             <div className="absolute bottom-6 left-0 right-0 px-6 sm:px-8 flex items-center justify-between text-xs text-black/60">
-              <span>© {new Date().getFullYear()}</span>
-              <span className="hidden sm:block">Press Esc to close</span>
+              
             </div>
           </motion.div>
         )}
@@ -154,3 +167,5 @@ function Hamburger({ open }: { open: boolean }) {
     </div>
   );
 }
+
+export default BurgerMenu
