@@ -2,12 +2,14 @@
 import './css/main.css'
 
 import ArtistTable from './components/artistTable';
+import BurgerMenu from './components/burgerMenu';
 import Footer from './components/footer';
 
 function App() {
   return (
     
     <div className="App">
+     
       <a href="https://artmetropole.com" target="_blank" rel="noreferrer">
        <h1>ARTMETROPOLE</h1>
        </a>

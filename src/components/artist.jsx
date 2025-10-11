@@ -41,7 +41,7 @@ function Artist({
           <strong>{title}</strong>
         </td>
         <td>{year}</td>
-        <td>{parse(medium)}</td>
+        <td>{parse(medium.toLowerCase())}</td>
         <td>{dimensions}</td>
         <td>{edition}</td>
         <td><em>{notes}</em></td>
