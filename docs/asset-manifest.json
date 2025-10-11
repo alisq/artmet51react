@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8f72480d.css",
+    "main.js": "/static/js/main.246f3497.js",
+    "static/js/453.7eaf1d2a.chunk.js": "/static/js/453.7eaf1d2a.chunk.js",
+    "static/media/Apercu-Italic.ttf": "/static/media/Apercu-Italic.39e4358dfbdcc7b5cdfc.ttf",
+    "static/media/Apercu-Bold.otf": "/static/media/Apercu-Bold.16a839d2abfa318c2e69.otf",
+    "static/media/Apercu-Mono.ttf": "/static/media/Apercu-Mono.762b61047a9c11611be0.ttf",
+    "static/media/Gossip-HighSquare.otf": "/static/media/Gossip-HighSquare.f1d930b2567b61415dbb.otf",
+    "static/media/Apercu-Regular.otf": "/static/media/Apercu-Regular.83b693d3141cb9dd1538.otf",
+    "static/media/Gossip-MedSquare.otf": "/static/media/Gossip-MedSquare.af865ba57ca5b1e6e3e1.otf",
+    "static/media/Gossip-LowSquare.otf": "/static/media/Gossip-LowSquare.cfcc28298552e91c7b95.otf",
+    "static/media/Gossip-Roman.woff2": "/static/media/Gossip-Roman.f955517153b4862bb96d.woff2",
+    "index.html": "/index.html",
+    "main.8f72480d.css.map": "/static/css/main.8f72480d.css.map",
+    "main.246f3497.js.map": "/static/js/main.246f3497.js.map",
+    "453.7eaf1d2a.chunk.js.map": "/static/js/453.7eaf1d2a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f72480d.css",
+    "static/js/main.246f3497.js"
+  ]
+}
