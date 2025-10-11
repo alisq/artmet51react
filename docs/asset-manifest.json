@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.df6d2109.css",
-    "main.js": "/static/js/main.51ded48f.js",
+    "main.css": "/static/css/main.6655da17.css",
+    "main.js": "/static/js/main.a0ae541a.js",
     "static/js/453.7eaf1d2a.chunk.js": "/static/js/453.7eaf1d2a.chunk.js",
     "static/media/Apercu-Italic.ttf": "/static/media/Apercu-Italic.39e4358dfbdcc7b5cdfc.ttf",
     "static/media/Apercu-Bold.otf": "/static/media/Apercu-Bold.16a839d2abfa318c2e69.otf",
@@ -12,12 +12,12 @@
     "static/media/Gossip-LowSquare.otf": "/static/media/Gossip-LowSquare.cfcc28298552e91c7b95.otf",
     "static/media/Gossip-Roman.woff2": "/static/media/Gossip-Roman.f955517153b4862bb96d.woff2",
     "index.html": "/index.html",
-    "main.df6d2109.css.map": "/static/css/main.df6d2109.css.map",
-    "main.51ded48f.js.map": "/static/js/main.51ded48f.js.map",
+    "main.6655da17.css.map": "/static/css/main.6655da17.css.map",
+    "main.a0ae541a.js.map": "/static/js/main.a0ae541a.js.map",
     "453.7eaf1d2a.chunk.js.map": "/static/js/453.7eaf1d2a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.df6d2109.css",
-    "static/js/main.51ded48f.js"
+    "static/css/main.6655da17.css",
+    "static/js/main.a0ae541a.js"
   ]
 }

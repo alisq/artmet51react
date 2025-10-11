@@ -360,6 +360,11 @@ table td {
   padding-bottom: 3em;
 }
 
+.sponsor_img {
+  display: inline;
+  max-width: 150px;
+}
+
 p {
   max-width: 600px;
   margin: 1em auto;
