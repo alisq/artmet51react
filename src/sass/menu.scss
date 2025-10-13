@@ -28,4 +28,9 @@
     font-size: 130px;
     font-family: 'gossipRoman';
     line-height:0.5em;
+
+    & li a {
+        display:block;
+        padding:20px;
+    }
 }
