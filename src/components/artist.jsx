@@ -42,9 +42,9 @@ function Artist({
         </td>
         <td>{year}</td>
         <td>{parse(medium.toLowerCase())}</td>
-        <td>{dimensions}</td>
+        <td>{parse(dimensions)}</td>
         <td>{edition}</td>
-        <td><em>{notes}</em></td>
+        <td><em>{notes && parse(notes)}</em></td>
 
         
         <td className="hideBig">
