@@ -19,8 +19,8 @@ function ArtistTable() {
             <td><u>Title</u></td>
             <td><u>Year</u></td>
             <td><u>Medium</u></td>
-            <td><u>Size</u></td>
             <td><u>Dimensions</u></td>
+            <td><u>Edition</u></td>
             <td><u>Notes</u></td>
             </tr>
           
