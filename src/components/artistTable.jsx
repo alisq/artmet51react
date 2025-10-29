@@ -17,7 +17,7 @@ function ArtistTable() {
             <tr className="headings">
             <td className="longer"><u>Artist</u></td>
             <td><u>Title</u></td>
-            <td><u>Year</u></td>
+            <td><u>Year</u></td> 
             <td><u>Medium</u></td>
             <td><u>Dimensions</u></td>
             <td><u>Edition</u></td>
