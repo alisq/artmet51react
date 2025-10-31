@@ -32,7 +32,9 @@ const body = validData.map(o =>
   renamedKeys
     .map(k => {
       const originalKey = k === "@image" ? "image" : k;
-      return JSON.stringify(o[originalKey] ?? "");
+      let value = o[originalKey] ?? "";
+      
+      return JSON.stringify(value);
     })
     .join(",")
 );
