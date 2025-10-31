@@ -3,7 +3,7 @@
     {"id":"steven_beckly","artist":"Steven Beckly", "title": "Tip to Tip", "year":"2017", "medium": "Archival pigment print on prismatic paper", "dimensions": "11.75 × 8.5 in","image":"","bio": "", "v":"1800","edition":"Unique","notes":"Courtesy of the artist and Daniel Faria Gallery"},
     {"id":"alan_belcher","artist":"Alan Belcher","title": "Nafta","year":"2018/2019","medium":"Canadian softwood, colour photograph, nails","dimensions":"8 × 5.5 × 5.5 in","image":"alan_belcher.jpg","bio":"", "v":"2500","edition":"Unique","notes":"Courtesy of Hunt Gallery, Toronto"},
     {"id": "ernesto_cabral_de_luna", "artist":"Ernesto Cabral de Luna", "title":"Las Tierras Malditas (Diptych)","year":"2025","medium":"Inkjet print, reproduction of family photograph, emulsion lift on corroded copper plate, custom mat board, ink stamp","dimensions":"14 × 16.5 in","image":"ernesto_cabral.jpg","bio":"","v":"3000","edition":"1 of 3 + 1AP", "notes":"Courtesy of the artist"},    
-    {"id": "holly_chang", "artist":"Holly Chang", "title":"Forgiveness","year":"2025","medium":"Toned and naturally dyed cyanotype on cotton, naturally dyed fabrics, quilting techniques","dimensions":"unknown","image":"","bio":"","v":"800-1000","edition":"Unique","notes":"Courtesy of the artist"},
+    {"id": "holly_chang", "artist":"Holly Chang", "title":"Forgiveness","year":"2025","medium":"Toned and naturally dyed cyanotype on cotton, naturally dyed fabrics, quilting techniques","dimensions":"76 × 32 in","image":"holly_chang.jpg","bio":"","v":"1000","edition":"Unique","notes":"Courtesy of the artist"},
     {"id":"adrien_crossman","artist":"Adrien Crossman","title": "Steamworks, January 2025","year":"2025","medium":"Fine art photo print mounted on aluminum","dimensions":"11 × 14 in","image":"adrien_crossman.jpg","bio":"", "v":"900","edition":"2","notes":"Courtesy of the artist"},
     {"id":"julia_dault", "artist":"Julia Dault","title": "Actual Size","year":"2022/25","medium":"Pencil and watercolor on archival pigment print","dimensions":"24 × 18 in","image":"julia_dault.jpg","bio":"", "v":"N/A","edition":"Unique", "notes":"Courtesy of the artist and Bradley Ertaskiran, Montreal"},
     {"id":"erica_eyres","artist":"Erica Eyres", "title": "Burger Ashtray", "year":"2022", "medium": "glazed stoneware", "dimensions": "5 × 4 × 2.75 in","image": "Norberg.jpg","bio": "", "v":"900","edition":"Unique","notes":"Courtesy of the artist & Norberg Hall"},
@@ -18,7 +18,7 @@
     {"id":"john_monteith","artist":"John Monteith", "title": "Grands Ensembles #4", "year":"2019", "medium": "Colour pencil on drafting film", "dimensions": "24 × 18 in","image": "Monteith.jpg","bio": "", "v":"900","edition":"Unique","notes":"Courtesy of the artist"},
     {"id":"Kristine_Moran","artist":"Kristine Moran", "title": "Untitled (Drawing while walking 13)", "year":"2023", "medium": "Oil on paper", "dimensions": "16 × 12 in","image": "moran.jpg","bio": "", "v":"2800","edition":"Unique","notes":"Courtesy of the artist and Daniel Faria Gallery"},
     {"id":"kate_newby","artist":"Kate Newby", "title": "But what will it look like in 3 years", "year":"2019", "medium": "Silver, porcelain, stoneware, glaze, copper", "dimensions": "9 pieces","image": "kate_newby.jpg","bio": "", "v":"1800","edition":"Unique","notes":"Courtesy of Cooper Cole"}, 
-    {"id":"cristian_ordonez","artist":"Cristian Ordóñez", "title": "Untitled 07 (Frequency). ON, 2020", "year":"2020", "medium": "Archival Pigment Print", "dimensions": "8.75 × 12 inches","image": "ordonez.jpg","bio": "", "v":"400","edition":"1/2 + 1AP","notes":"Courtesy of the artist"},
+    {"id":"cristian_ordonez","artist":"Cristian Ordóñez", "title": "Untitled 07 (Frequency). ON, 2020", "year":"2020", "medium": "Archival Pigment Print", "dimensions": "8.75 × 12 in","image": "ordonez.jpg","bio": "", "v":"400","edition":"1/2 + 1AP","notes":"Courtesy of the artist"},
     {"id":"kay_rosen","artist":"Kay Rosen", "title": "Silence/License", "year":"1995/2017", "medium": "gold foil on 111 ib. Gmund Savanna Bulblinga wood grain cardstock", "dimensions": "11 × 14 in","image": "KayRosen.jpg","bio": "", "v":"1800","edition":"13","notes":"Courtesy of the artist"},
     {"id":"shaan_syed","artist":"Shaan Syed", "title": "Untitled", "year":"2021", "medium": "Oil on khadi paper", "dimensions": "40 × 30 cm","image": "shaan syed.jpeg","bio": "", "v":"3400","edition":"1 of 13","notes":"Bradley Ertaskiran, Montreal and Vardaxoglou, London."},
     {"id":"justin_ming_yong","artist":"Justin Ming Yong","title": "Red Fall 02- 2024","year":"2024","medium":"Ink, bleach and cotton on wooden stretcher","dimensions":"24 × 24 in","image":"justin_yong.jpg","bio":"", "v":"1800","edition":"Unique","notes":"Courtesy of the artist"},
@@ -32,7 +32,6 @@
 {"id": "chrysanne_stathacos", "artist":"Chrysanne Stathacos", "title":"TBA","year":"","medium":"","dimensions":"","image":"","bio":"","v":"","edition":"","notes":""}
 
 ]
-
 
 
 
