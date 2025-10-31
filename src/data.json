@@ -1,6 +1,6 @@
 [
     {"id":"tauba_auerbach","artist":"Tauba Auerbach","title": "Ligature Drawing, 13 June 22","year":"2022","medium":"ink on paper with date stamp","dimensions":"31.5 × 27 in","image":"auerbach.jpg","bio":"", "v":"2600 USD","edition":"Unique", "notes":"Courtesy<br />Paula Cooper Gallery, New York.<br />Photo: Steven Probert"},
-    {"id":"steven_beckly","artist":"Steven Beckly", "title": "Tip to Tip", "year":"2017", "medium": "Archival pigment print on prismatic paper", "dimensions": "11.75 × 8.5 in","image":"","bio": "", "v":"1800","edition":"Unique","notes":"Courtesy of the artist and Daniel Faria Gallery"},
+    {"id":"steven_beckly","artist":"Steven Beckly", "title": "Tip to Tip", "year":"2017", "medium": "Archival pigment print on prismatic paper", "dimensions": "11.75 × 8.5 in","image":"beckly.jpg","bio": "", "v":"1800","edition":"Unique","notes":"Courtesy of the artist and Daniel Faria Gallery"},
     {"id":"alan_belcher","artist":"Alan Belcher","title": "Nafta","year":"2018/2019","medium":"Canadian softwood, colour photograph, nails","dimensions":"8 × 5.5 × 5.5 in","image":"alan_belcher.jpg","bio":"", "v":"2500","edition":"Unique","notes":"Courtesy of Hunt Gallery, Toronto"},
     {"id": "ernesto_cabral_de_luna", "artist":"Ernesto Cabral de Luna", "title":"Las Tierras Malditas (Diptych)","year":"2025","medium":"Inkjet print, reproduction of family photograph, emulsion lift on corroded copper plate, custom mat board, ink stamp","dimensions":"14 × 16.5 in","image":"ernesto_cabral.jpg","bio":"","v":"3000","edition":"1 of 3 + 1AP", "notes":"Courtesy of the artist"},    
     {"id": "holly_chang", "artist":"Holly Chang", "title":"Forgiveness","year":"2025","medium":"Toned and naturally dyed cyanotype on cotton, naturally dyed fabrics, quilting techniques","dimensions":"76 × 32 in","image":"holly_chang.jpg","bio":"","v":"1000","edition":"Unique","notes":"Courtesy of the artist"},
@@ -32,6 +32,8 @@
 {"id": "chrysanne_stathacos", "artist":"Chrysanne Stathacos", "title":"TBA","year":"","medium":"","dimensions":"","image":"","bio":"","v":"","edition":"","notes":""}
 
 ]
+
+
 
 
 
