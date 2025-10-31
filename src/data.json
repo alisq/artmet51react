@@ -17,9 +17,11 @@
     {"id":"jochen_lempert","artist":"Jochen Lempert", "title": "Eule IV", "year":"2024", "medium": "Silver gelatin print on Baryta paper", "dimensions": "11.65 × 9.05 in","image": "Eule.jpg","bio": "", "v":"1650","edition":"45+5","notes":"© Jochen Lempert / VG Bild-Kunst, Bonn 2025<br />Courtesy BQ, Berlin and ProjecteSD, Barcelona"},
     {"id":"john_monteith","artist":"John Monteith", "title": "Grands Ensembles #4", "year":"2019", "medium": "Colour pencil on drafting film", "dimensions": "24 × 18 in","image": "Monteith.jpg","bio": "", "v":"900","edition":"Unique","notes":"Courtesy of the artist"},
     {"id":"Kristine_Moran","artist":"Kristine Moran", "title": "Untitled (Drawing while walking 13)", "year":"2023", "medium": "Oil on paper", "dimensions": "16 × 12 in","image": "moran.jpg","bio": "", "v":"2800","edition":"Unique","notes":"Courtesy of the artist and Daniel Faria Gallery"},
+    {"id": "native_art_department", "artist":"Native Art Department International", "title":"Tokens of Appreciation", "year":"2021", "medium":"serigraph; ink on cold-pressed paper", "dimensions":"22 × 33 in", "edition":"20 + 5 APs", "image":"nadi.jpg","v":"500", "notes":"Courtesy of the artist and Patel Brown"},
     {"id":"kate_newby","artist":"Kate Newby", "title": "But what will it look like in 3 years", "year":"2019", "medium": "Silver, porcelain, stoneware, glaze, copper", "dimensions": "9 pieces","image": "kate_newby.jpg","bio": "", "v":"1800","edition":"Unique","notes":"Courtesy of Cooper Cole"}, 
     {"id":"cristian_ordonez","artist":"Cristian Ordóñez", "title": "Untitled 07 (Frequency). ON, 2020", "year":"2020", "medium": "Archival Pigment Print", "dimensions": "8.75 × 12 in","image": "ordonez.jpg","bio": "", "v":"400","edition":"1/2 + 1AP","notes":"Courtesy of the artist"},
     {"id":"kay_rosen","artist":"Kay Rosen", "title": "Silence/License", "year":"1995/2017", "medium": "gold foil on 111 ib. Gmund Savanna Bulblinga wood grain cardstock", "dimensions": "11 × 14 in","image": "KayRosen.jpg","bio": "", "v":"1800","edition":"13","notes":"Courtesy of the artist"},
+    {"id": "margaux_smith", "artist":"Margaux Smith", "title":"Aloe", "year":"2025", "medium":"Oil on canvas", "dimensions":"16 × 12 in", "image":"margaux_smith.jpg", "edition":"Unique","v":"2500", "notes":"Courtesy of the artist and Clint Roenisch Gallery"},
     {"id":"shaan_syed","artist":"Shaan Syed", "title": "Untitled", "year":"2021", "medium": "Oil on khadi paper", "dimensions": "40 × 30 cm","image": "shaan_syed.jpg","bio": "", "v":"3400","edition":"1 of 13","notes":"Bradley Ertaskiran, Montreal and Vardaxoglou, London."},
     {"id":"justin_ming_yong","artist":"Justin Ming Yong","title": "Red Fall 02- 2024","year":"2024","medium":"Ink, bleach and cotton on wooden stretcher","dimensions":"24 × 24 in","image":"justin_yong.jpg","bio":"", "v":"1800","edition":"Unique","notes":"Courtesy of the artist"},
     {"id": "nicholas_zirk", "artist":"Nicholas Zirk", "title":"Radiant Inflorescence","year":"2025","medium":"Oil on Canvas","dimensions":"16 × 20 in","image":"","bio":"","v":"1400","edition":"Unique", "notes":"Courtesy of the artist"},
@@ -31,19 +33,8 @@
 {"id": "brittany_shepherd", "artist":"Brittany Shepherd", "title":"TBA","year":"","medium":"","dimensions":"","image":"","bio":"","v":"","edition":"","notes":""},
 {"id": "chrysanne_stathacos", "artist":"Chrysanne Stathacos", "title":"TBA","year":"","medium":"","dimensions":"","image":"","bio":"","v":"","edition":"","notes":""}
 
+
 ]
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
