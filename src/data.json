@@ -7,6 +7,7 @@
     {"id":"adrien_crossman","artist":"Adrien Crossman","title": "Steamworks, January 2025","year":"2025","medium":"Fine art photo print mounted on aluminum","dimensions":"11 × 14 in","image":"adrien_crossman.jpg","bio":"", "v":"900","edition":"2","notes":"Courtesy of the artist"},
     {"id":"julia_dault", "artist":"Julia Dault","title": "Actual Size","year":"2022/25","medium":"Pencil and watercolor on archival pigment print","dimensions":"24 × 18 in","image":"julia_dault.jpg","bio":"", "v":"","edition":"Unique", "notes":"Courtesy of the artist and Bradley Ertaskiran, Montreal"},
     {"id":"erica_eyres","artist":"Erica Eyres", "title": "Burger Ashtray", "year":"2022", "medium": "glazed stoneware", "dimensions": "5 × 4 × 2.75 in","image": "Norberg.jpg","bio": "", "v":"900","edition":"Unique","notes":"Courtesy of the artist & Norberg Hall"},
+    {"id": "geoffrey_farmer", "artist":"Geoffrey Farmer", "title":"Wind Down To The Ground, And More Vampire Please","year":"2025","medium":"Magazine cut outs, fabric, clothes pins","dimensions":"15 × 17 in","image":"geoffrey_farmer.jpg","bio":"","v":"3000","edition":"study","notes":"Courtesy of Catriona Jeffries Gallery"},
     {"id":"sameer_farooq","artist":"Sameer Farooq", "title": "Gandhara Series (Constellation 5)", "year":"2023", "medium": "Photography, Archival print", "dimensions": "34 × 24 in","image": "sameer.jpg","bio": "", "v":"","edition":"3","notes":"Courtesy of Galerie Nicolas Robert"},
     {"id": "fastwurm", "artist":"Fastwurms", "title":"Pink Volcano (amethyst)","year":"2021","medium":"Raku, ceramic with obsidian orb stopper","dimensions":"9.5  × 9 in","image":"pink_volcano.jpg","bio":"","v":"4500","edition":"Unique","notes":"Paul Petro Contemporary"},
     {"id":"shannon_garden_smith","artist":"Shannon Garden-Smith","title": "Leaf No 87, No 99 (recueil de cartes)","year":"2025","medium":"Archival digital prints on 100% cotton, acid-free, hot press paper; custom museum glass frame with glass marbles ","dimensions":"Two prints 5.75 × 8.25 in each, framed as one work, approximately 17.25 × 13.5 × 1.25 in","image":"garden_smith.jpg","bio":"", "v":"1200","edition":"Unique","notes":"Courtesy of the artist"},
@@ -21,27 +22,18 @@
     {"id":"kate_newby","artist":"Kate Newby", "title": "But what will it look like in 3 years", "year":"2019", "medium": "Silver, porcelain, stoneware, glaze, copper", "dimensions": "9 pieces","image": "kate_newby.jpg","bio": "", "v":"1800","edition":"Unique","notes":"Courtesy of Cooper Cole"}, 
     {"id":"cristian_ordonez","artist":"Cristian Ordóñez", "title": "Untitled 07 (Frequency). ON, 2020", "year":"2020", "medium": "Archival Pigment Print", "dimensions": "8.75 × 12 in","image": "ordonez.jpg","bio": "", "v":"400","edition":"1/2 + 1AP","notes":"Courtesy of the artist"},
     {"id":"kay_rosen","artist":"Kay Rosen", "title": "Silence/License", "year":"1995/2017", "medium": "gold foil on 111 ib. Gmund Savanna Bulblinga wood grain cardstock", "dimensions": "11 × 14 in","image": "KayRosen.jpg","bio": "", "v":"1800","edition":"13","notes":"Courtesy of the artist"},
-    {"id": "margaux_smith", "artist":"Margaux Smith", "title":"Aloe", "year":"2025", "medium":"Oil on canvas", "dimensions":"16 × 12 in", "image":"margaux_smith.jpg", "edition":"Unique","v":"2500", "notes":"Courtesy of the artist and Clint Roenisch Gallery"},
+    {"id": "margaux_smith", "artist":"Margaux Smith", "title":"Aloe", "year":"2025", "medium":"oil on silk over panel", "dimensions":"12 × 18 in", "image":"margaux_smith.jpg", "edition":"Unique","v":"2500", "notes":"Courtesy of the artist and Clint Roenisch Gallery"},
     {"id":"shaan_syed","artist":"Shaan Syed", "title": "Untitled", "year":"2021", "medium": "Oil on khadi paper", "dimensions": "40 × 30 cm","image": "shaan_syed.jpg","bio": "", "v":"3400","edition":"1 of 13","notes":"Bradley Ertaskiran, Montreal and Vardaxoglou, London."},
     {"id":"justin_ming_yong","artist":"Justin Ming Yong","title": "Red Fall 02- 2024","year":"2024","medium":"Ink, bleach and cotton on wooden stretcher","dimensions":"24 × 24 in","image":"justin_yong.jpg","bio":"", "v":"1800","edition":"Unique","notes":"Courtesy of the artist"},
     {"id": "nicholas_zirk", "artist":"Nicholas Zirk", "title":"Radiant Inflorescence","year":"2025","medium":"Oil on Canvas","dimensions":"16 × 20 in","image":"","bio":"","v":"1400","edition":"Unique", "notes":"Courtesy of the artist"},
-{"id": "jessica_eaton", "artist":"Jessica Eaton", "title":"TBA","year":"","medium":"","dimensions":"","image":"","bio":"","v":"","edition":"","notes":""},
-{"id": "geoffrey_farmer", "artist":"Geoffrey Farmer", "title":"TBA","year":"","medium":"","dimensions":"","image":"","bio":"","v":"","edition":"","notes":"","edition":"1 of 2","notes":"Courtesy of Catriona Jeffries Gallery"},
-{"id": "lili_huston_herterich", "artist":"Lili Huston Herterich", "title":"TBA","year":"","medium":"","dimensions":"","image":"","bio":"","v":"","edition":"","notes":""},
-{"id": "lucas_larochelle", "artist":"Lucas LaRochelle", "title":"TBA","year":"","medium":"","dimensions":"","image":"","bio":"","v":"","edition":"","notes":""},
-{"id": "paul_mpagi_sepuya", "artist":"Paul Mpagi Sepuya", "title":"TBA","year":"","medium":"","dimensions":"","image":"","bio":"","v":"","edition":"","notes":""},
-{"id": "brittany_shepherd", "artist":"Brittany Shepherd", "title":"TBA","year":"","medium":"","dimensions":"","image":"","bio":"","v":"","edition":"","notes":""},
-{"id": "chrysanne_stathacos", "artist":"Chrysanne Stathacos", "title":"TBA","year":"","medium":"","dimensions":"","image":"","bio":"","v":"","edition":"","notes":""}
+    {"id": "jessica_eaton", "artist":"Jessica Eaton", "title":"TBA","year":"","medium":"","dimensions":"","image":"","bio":"","v":"","edition":"","notes":""},
+    {"id": "lili_huston_herterich", "artist":"Lili Huston Herterich", "title":"TBA","year":"","medium":"","dimensions":"","image":"","bio":"","v":"","edition":"","notes":""},
+    {"id": "lucas_larochelle", "artist":"Lucas LaRochelle", "title":"TBA","year":"","medium":"","dimensions":"","image":"","bio":"","v":"","edition":"","notes":""},
+    {"id": "paul_mpagi_sepuya", "artist":"Paul Mpagi Sepuya", "title":"TBA","year":"","medium":"","dimensions":"","image":"","bio":"","v":"","edition":"","notes":""},
+    {"id": "brittany_shepherd", "artist":"Brittany Shepherd", "title":"TBA","year":"","medium":"","dimensions":"","image":"","bio":"","v":"","edition":"","notes":""},
+    {"id": "chrysanne_stathacos", "artist":"Chrysanne Stathacos", "title":"TBA","year":"","medium":"","dimensions":"","image":"","bio":"","v":"","edition":"","notes":""}
 
 
 ]
-
-
-
-
-
-
-
-
 
 
