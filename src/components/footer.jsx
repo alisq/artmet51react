@@ -8,6 +8,8 @@ function Footer() {
                      <a href="https://collectiveartsbrewing.com/" target="_blank"  rel="noreferrer"><img className="sponsor_img" src="/img/sponsor_logos_01.png" /></a>
     <a href="https://burdockbrewery.com/" target="_blank"  rel="noreferrer"><img className="sponsor_img" src="/img/sponsor_logos_02.png" /></a>
     <a href="https://paradisegrapevine.com/" target="_blank"  rel="noreferrer"><img className="sponsor_img" src="/img/sponsor_logos_03.png" /></a>
+    <div><a href="https://www.superframe.ca/" target="_blank"  rel="noreferrer"><img className="sponsor_img" src="/img/sponsor_logos_04.png" /></a><br />Our framing sponsor, Superframe, is offering all Lucky Draw ticket holders a 20% discount to frame their new artwork from the event. In addition, whoever is selected last in the draw will have their piece framed for free (up to $500 value).
+        </div>
     <br />
 
 </div>

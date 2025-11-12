@@ -12,6 +12,7 @@
     {"id": "fastwurm", "artist":"Fastwurms", "title":"Pink Volcano (amethyst)","year":"2021","medium":"Raku, ceramic with obsidian orb stopper","dimensions":"9.5  × 9 in","image":"pink_volcano.jpg","bio":"","v":"4500","edition":"Unique","notes":"Paul Petro Contemporary"},
     {"id":"shannon_garden_smith","artist":"Shannon Garden-Smith","title": "Leaf No 87, No 99 (recueil de cartes)","year":"2025","medium":"Archival digital prints on 100% cotton, acid-free, hot press paper; custom museum glass frame with glass marbles ","dimensions":"Two prints 5.75 × 8.25 in each, framed as one work, approximately 17.25 × 13.5 × 1.25 in","image":"garden_smith.jpg","bio":"", "v":"1200","edition":"Unique","notes":"Courtesy of the artist"},
     {"id":"heather_goodchild","artist":"Heather Goodchild", "title": "Shanghai Park", "year":"2024", "medium": "oil on wood board", "dimensions": "8.5 × 12 in","image": "goodchild.jpg","bio": "", "v":"1800 ","edition":"Unique","notes":"Courtesy of the artist and Clint Roenisch Gallery"},
+    {"id":"jean_paul_kelly", "artist":"Jean-Paul Kelly", "title":"Ramon Novarro (after Carl Van Vechten) [Version 1]", "year": "2025", "medium": "Inkjet Print", "dimensions": "12 × 18 in", "image":"jean_paul_kelly.jpg", "edition": "A/P", "v":"500", "notes": "Courtesy the artist"},
     {"id":"alexa_kumiko_hatanaka","artist":"Alexa Kumiko Hatanaka","title": "Snow like lino, lino like snow","year":"2020","medium":"lino cut print on hand-made gampi paper","dimensions": "8 × 10 in","image":"alexa_kumiko_hatanaka.jpg","bio":"", "v":"1800","edition":"25","notes":"Courtesy of the artist and Patel Brown"},
     {"id":"kelly_jazvac","artist":"Kelly Jazvac","title": "Recent Landscapes","year":"2014","medium":"framed giclée print","dimensions":"11 × 17 in (unframed) ","image":"kelly_jazvac.jpg","bio":"", "v":"1800","edition":"1 of 2","edition":"1 of 2","notes":"Courtesy of the artist"},
     {"id":"jean_françois_lauda","artist":"Jean-François Lauda","title": "untitled","year":"2023","medium":"Untitled Watercolour and pencil on paper","dimensions": "7 × 11 in","image":"lauda.jpg","bio":"", "v":"1650","edition":"Unique","notes":"courtesy of Galerie Eli Kerr"},
@@ -25,15 +26,7 @@
     {"id": "margaux_smith", "artist":"Margaux Smith", "title":"Aloe", "year":"2025", "medium":"oil on silk over panel", "dimensions":"12 × 18 in", "image":"margaux_smith.jpg", "edition":"Unique","v":"2500", "notes":"Courtesy of the artist and Clint Roenisch Gallery"},
     {"id":"shaan_syed","artist":"Shaan Syed", "title": "Untitled", "year":"2021", "medium": "Oil on khadi paper", "dimensions": "40 × 30 cm","image": "shaan_syed.jpg","bio": "", "v":"3400","edition":"1 of 13","notes":"Bradley Ertaskiran, Montreal and Vardaxoglou, London."},
     {"id":"justin_ming_yong","artist":"Justin Ming Yong","title": "Red Fall 02- 2024","year":"2024","medium":"Ink, bleach and cotton on wooden stretcher","dimensions":"24 × 24 in","image":"justin_yong.jpg","bio":"", "v":"1800","edition":"Unique","notes":"Courtesy of the artist"},
-    {"id": "nicholas_zirk", "artist":"Nicholas Zirk", "title":"Radiant Inflorescence","year":"2025","medium":"Oil on Canvas","dimensions":"16 × 20 in","image":"","bio":"","v":"1400","edition":"Unique", "notes":"Courtesy of the artist"},
-    {"id": "jessica_eaton", "artist":"Jessica Eaton", "title":"TBA","year":"","medium":"","dimensions":"","image":"","bio":"","v":"","edition":"","notes":""},
-    {"id": "lili_huston_herterich", "artist":"Lili Huston Herterich", "title":"TBA","year":"","medium":"","dimensions":"","image":"","bio":"","v":"","edition":"","notes":""},
-    {"id": "lucas_larochelle", "artist":"Lucas LaRochelle", "title":"TBA","year":"","medium":"","dimensions":"","image":"","bio":"","v":"","edition":"","notes":""},
-    {"id": "paul_mpagi_sepuya", "artist":"Paul Mpagi Sepuya", "title":"TBA","year":"","medium":"","dimensions":"","image":"","bio":"","v":"","edition":"","notes":""},
-    {"id": "brittany_shepherd", "artist":"Brittany Shepherd", "title":"TBA","year":"","medium":"","dimensions":"","image":"","bio":"","v":"","edition":"","notes":""},
-    {"id": "chrysanne_stathacos", "artist":"Chrysanne Stathacos", "title":"TBA","year":"","medium":"","dimensions":"","image":"","bio":"","v":"","edition":"","notes":""}
-
-
+    {"id": "nicholas_zirk", "artist":"Nicholas Zirk", "title":"Radiant Inflorescence","year":"2025","medium":"Oil on Canvas","dimensions":"16 × 20 in","image":"","bio":"","v":"1400","edition":"Unique", "notes":"Courtesy of the artist"}
 ]
 
 

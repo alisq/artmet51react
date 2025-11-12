@@ -45,7 +45,8 @@ function App() {
 
 
              <h3>
-Featuring DJs Chinelo + Marnigurl 
+Featuring DJs Chinelo + Marnigurl<br />
+MC'd by Mikiki
   
       </h3>
 
