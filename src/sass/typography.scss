@@ -19,9 +19,9 @@
 // ------------------------------------------------------
 // Fonts
 // ------------------------------------------------------
-@include font-face('gossipBig',   'fonts/Gossip-HighSquare.otf',  'opentype');
+// @include font-face('gossipBig',   'fonts/Gossip-HighSquare.otf',  'opentype');
 @include font-face('gossipMed',   'fonts/Gossip-MedSquare.otf',   'opentype');
-@include font-face('gossipSmall', 'fonts/Gossip-LowSquare.otf',   'opentype');
+// @include font-face('gossipSmall', 'fonts/Gossip-LowSquare.otf',   'opentype');
 
 @include font-face('gossipRoman', 'fonts/Gossip-Roman.woff2',     'woff2');
 
@@ -126,3 +126,6 @@ h4 {
     overflow: hidden;
   }
 }
+
+
+
