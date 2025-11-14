@@ -27,7 +27,9 @@
     {"id": "margaux_smith", "artist":"Margaux Smith", "title":"Aloe", "year":"2025", "medium":"oil on silk over panel", "dimensions":"12 × 18 in", "image":"margaux_smith.jpg", "edition":"Unique","v":"2500", "notes":"Courtesy of the artist and Clint Roenisch Gallery"},
     {"id":"shaan_syed","artist":"Shaan Syed", "title": "Untitled", "year":"2021", "medium": "Oil on khadi paper", "dimensions": "40 × 30 cm","image": "shaan_syed.jpg","bio": "", "v":"3400","edition":"1 of 13","notes":"Bradley Ertaskiran, Montreal and Vardaxoglou, London."},
     {"id":"justin_ming_yong","artist":"Justin Ming Yong","title": "Red Fall 02- 2024","year":"2024","medium":"Ink, bleach and cotton on wooden stretcher","dimensions":"24 × 24 in","image":"justin_yong.jpg","bio":"", "v":"1800","edition":"Unique","notes":"Courtesy of the artist"},
-    {"id": "nicholas_zirk", "artist":"Nicholas Zirk", "title":"Radiant Inflorescence","year":"2025","medium":"Oil on Canvas","dimensions":"16 × 20 in","image":"","bio":"","v":"1400","edition":"Unique", "notes":"Courtesy of the artist"}
+    {"id": "nicholas_zirk", "artist":"Nicholas Zirk", "title":"Radiant Inflorescence","year":"2025","medium":"Oil on Canvas","dimensions":"16 × 20 in","image":"nicholas_zirk.jpg","bio":"","v":"1400","edition":"Unique", "notes":"Courtesy of the artist"}
 ]
+
+
 
 
