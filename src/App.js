@@ -36,8 +36,10 @@ function App() {
 
              <h3>
   November 20, 2025<br />
-  7pm-12am<br />
-  Cafeteria+ Upstairs
+  7pm-12am<br /><br />
+  Cafeteria+ Upstairs<br />
+  1650 Dupont St.<br />
+  Toronto, ON
   
       </h3>
 
