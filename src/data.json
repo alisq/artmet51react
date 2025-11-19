@@ -3,7 +3,7 @@
     {"id":"steven_beckly","artist":"Steven Beckly", "title": "Tip to Tip", "year":"2017", "medium": "Archival pigment print on prismatic paper", "dimensions": "11.75 × 8.5 in","image":"beckly.jpg","bio": "", "v":"1800","edition":"Unique","notes":"Courtesy of the artist and Daniel Faria Gallery"},
     {"id":"alan_belcher","artist":"Alan Belcher","title": "Nafta","year":"2018/2019","medium":"Canadian softwood, colour photograph, nails","dimensions":"8 × 5.5 × 5.5 in","image":"alan_belcher.jpg","bio":"", "v":"2500","edition":"Unique","notes":"Courtesy of Hunt Gallery, Toronto"},
     {"id": "ernesto_cabral_de_luna", "artist":"Ernesto Cabral de Luna", "title":"Las Tierras Malditas (Diptych)","year":"2025","medium":"Inkjet print, reproduction of family photograph, emulsion lift on corroded copper plate, custom mat board, ink stamp","dimensions":"14 × 16.5 in","image":"ernesto_cabral.jpg","bio":"","v":"3000","edition":"1 of 3 + 1AP", "notes":"Courtesy of the artist"},    
-    {"id": "holly_chang", "artist":"Holly Chang", "title":"Forgiveness","year":"2025","medium":"Toned and naturally dyed cyanotype on cotton, naturally dyed fabrics, quilting techniques","dimensions":"76 × 32 in","image":"holly_chang.jpg","bio":"","v":"1000","edition":"Unique","notes":"Courtesy of the artist"},
+    {"id": "holly_chang", "artist":"Holly Chang", "title":"Forgiveness","year":"2025","medium":"Toned and naturally dyed cyanotype on cotton, naturally dyed fabrics, quilting techniques","dimensions":"29 × 20 in","image":"holly_chang.jpg","bio":"","v":"1000","edition":"Unique","notes":"Courtesy of the artist"},
     {"id":"adrien_crossman","artist":"Adrien Crossman","title": "Steamworks, January 2025","year":"2025","medium":"Fine art photo print mounted on aluminum","dimensions":"11 × 14 in","image":"adrien_crossman.jpg","bio":"", "v":"900","edition":"2","notes":"Courtesy of the artist"},
     {"id":"julia_dault", "artist":"Julia Dault","title": "Actual Size","year":"2022/25","medium":"Pencil and watercolor on archival pigment print","dimensions":"24 × 18 in","image":"julia_dault.jpg","bio":"", "v":"","edition":"Unique", "notes":"Courtesy of the artist and Bradley Ertaskiran, Montreal"},
     {"id":"erica_eyres","artist":"Erica Eyres", "title": "Burger Ashtray", "year":"2022", "medium": "glazed stoneware", "dimensions": "5 × 4 × 2.75 in","image": "Norberg.jpg","bio": "", "v":"900","edition":"Unique","notes":"Courtesy of the artist & Norberg Hall"},
@@ -31,6 +31,11 @@
     {"id":"justin_ming_yong","artist":"Justin Ming Yong","title": "Red Fall 02- 2024","year":"2024","medium":"Ink, bleach and cotton on wooden stretcher","dimensions":"24 × 24 in","image":"justin_yong.jpg","bio":"", "v":"1800","edition":"Unique","notes":"Courtesy of the artist"},
     {"id": "nicholas_zirk", "artist":"Nicholas Zirk", "title":"Radiant Inflorescence","year":"2025","medium":"Oil on Canvas","dimensions":"16 × 20 in","image":"nicholas_zirk.jpg","bio":"","v":"1400","edition":"Unique", "notes":"Courtesy of the artist"}
 ]
+
+
+
+
+
 
 
 
